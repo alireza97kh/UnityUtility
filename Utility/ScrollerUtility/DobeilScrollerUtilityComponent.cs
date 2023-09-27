@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Dobeil;
 [RequireComponent(typeof(ScrollRect))]
-public class ScrollerUtilityComponent : MonoBehaviour
+public class DobeilScrollerUtilityComponent : MonoBehaviour
 {
     public ScrollerTrype scrollerTrype;
     public ScrollTo scrollTo;
