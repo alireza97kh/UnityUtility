@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Dobeil
 {
 	[System.Serializable]
-	[CreateAssetMenu(fileName = "DobeilAiCharacterBaseDataModel", menuName = "AiBaseData/DobeilAiCharacterBaseDataModel")]
+	[CreateAssetMenu(fileName = "DobeilAiCharacterBaseDataModel", menuName = "DobeilData/DobeilAiCharacterBaseDataModel")]
 
 	public class DobeilAiCharacterBaseDataModel : ScriptableObject
 	{
