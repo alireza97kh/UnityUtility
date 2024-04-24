@@ -39,12 +39,13 @@ public class DobeilGameServiceBase : MonoSingleton<DobeilGameServiceBase>
             default:
                 throw new ArgumentException("Unsupported HTTP method: " + method);
         }
-
-        foreach (var header in headers)
+        if (headers != null)
         {
-            request.SetRequestHeader(header.Key, header.Value);
+            foreach (var header in headers)
+            {
+                request.SetRequestHeader(header.Key, header.Value);
+            }
         }
-
         return request;
     }
 }
